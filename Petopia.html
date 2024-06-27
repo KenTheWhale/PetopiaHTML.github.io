@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Delete Account Page</title>
+    <style>
+      body {
+        background-color: black;
+        color: white;
+        text-align: center;
+      }
+      h1 {
+        color: yellow;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: transparent;
+        color: white;
+        border: 2px solid white;
+        cursor: pointer;
+        border-radius: 50px;
+        transition: background-color 0.8s, color 0.8s, border-color 0.8s,
+          box-shadow 0.8s;
+      }
+      button:hover {
+        background-color: red;
+        color: black;
+        border: 2px solid red;
+        box-shadow: 0 0 100px red;
+      }
+    </style>
+  </head>
+  <body>
+    <img
+      src="petopia.png"
+      height="100"
+      width="100"
+      alt="Your Logo"
+      style="display: block; margin: 0 auto; max-width: 100%"
+    />
+    <h1>Delete your account</h1>
+    <button onclick="showDeletePopup()">Delete your account</button>
+
+    <script>
+      function showDeletePopup() {
+        alert("Account deleted successfully!");
+      }
+    </script>
+  </body>
+</html>
